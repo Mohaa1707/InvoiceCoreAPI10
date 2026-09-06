@@ -1,0 +1,127 @@
+﻿using InvoiceCoreAPI.Contracts;
+using InvoiceCoreAPI.Data;
+using InvoiceCoreAPI.DTO;
+using InvoiceCoreAPI.Entities;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
+
+namespace InvoiceCoreAPI.Repositories;
+
+public class CategoryRepositories : ICategoryRepository
+{
+    private readonly AppDbContext _dbContext;
+    public CategoryRepositories(AppDbContext dbContext)
+    {
+        _dbContext = dbContext;
+    }
+    public async Task<int> AddAsync(Category category)
+    {
+        var result = await _dbContext.Database.ExecuteSqlRawAsync(
+            @"EXEC sp_Category_Insert
+            @Code,
+            @Name,
+            @Description,
+            @IsActive",
+            new SqlParameter("@Code", category.Code),
+            new SqlParameter("@name", category.Name),
+            new SqlParameter("@Description", (object?)category.Description ?? DBNull.Value),
+            new SqlParameter("@IsActive", (object?)category.IsActive ?? DBNull.Value)
+            );
+        return result;
+
+    }
+    public async Task<bool> UpdateAsync(Category category)
+    {
+        var affectedRows = await _dbContext.Database.ExecuteSqlRawAsync(
+            @"EXEC sp_Category_Update
+            @Id,
+            @Code,
+            @name,
+            @Description,
+            @IsActive",
+            new SqlParameter("@Id", category.Id),
+            new SqlParameter("@Code", category.Code),
+            new SqlParameter("@name", category.Name),
+            new SqlParameter("Description", (object?)category.Description ?? DBNull.Value),
+            new SqlParameter("@IsActive", (object?)category.IsActive ?? DBNull.Value)
+            );
+
+        return affectedRows > 0;
+    }
+
+    public async Task<Category?> GetByIdAsync(int id)
+    {
+        var items = await _dbContext.Category
+            .FromSqlRaw("EXEC sp_Category_GetById @Id",
+            new SqlParameter("@Id", id))
+            .AsNoTracking()
+            .ToListAsync();
+        return items.FirstOrDefault();
+    }
+
+    public async Task<IEnumerable<Category>> GetAllAsync()
+    {
+        return await _dbContext.Category
+            .FromSqlRaw("EXEC sp_Category_GetAll")
+            .ToListAsync();
+    }
+
+    public async Task<bool> DeleteAsync(int id)
+    {
+        var affectedRows = await _dbContext.Database.ExecuteSqlRawAsync(
+            "EXEC sp_Category_Delete @Id",
+            new SqlParameter("@Id", id));
+
+        return affectedRows > 0;
+    }
+    public async Task<PagedResultDto<Category>> GetAllPagedAsync(
+string? Code,
+string? Name,
+int pageNumber,
+int pageSize)
+    {
+        using (var connection = _dbContext.Database.GetDbConnection())
+        {
+            await connection.OpenAsync();
+            using var command = connection.CreateCommand();
+            command.CommandText = "sp_Category_GetPaged";
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.Add(new SqlParameter("@Code", (object?)Code ?? DBNull.Value));
+            command.Parameters.Add(new SqlParameter("@Name", (object?)Name ?? DBNull.Value));
+            command.Parameters.Add(new SqlParameter("@PageNumber", pageNumber));
+            command.Parameters.Add(new SqlParameter("@PageSize", pageSize));
+
+            using var reader = await command.ExecuteReaderAsync();
+
+            var items = new List<Category>();
+
+            while (await reader.ReadAsync())
+            {
+                items.Add(new Category
+                {
+                    Id = reader.GetInt32(0),
+                    Code = reader.GetString(1),
+                    Name = reader.GetString(2),
+                    Description = reader.GetString(3),
+                    IsActive = reader.GetBoolean(4)
+                });
+            }
+
+            await reader.NextResultAsync();
+
+            int totalRecords = 0;
+            if (await reader.ReadAsync())
+            {
+                totalRecords = reader.GetInt32(0);
+            }
+
+            return new PagedResultDto<Category>
+            {
+                Data = items,
+                TotalRecords = totalRecords
+            };
+
+        }
+    }
+}

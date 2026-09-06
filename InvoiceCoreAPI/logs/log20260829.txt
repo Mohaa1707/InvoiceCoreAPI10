@@ -1,0 +1,439 @@
+2026-08-29 14:50:56.036 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-29 14:50:56.333 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-29 14:50:56.439 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-29 14:50:56.448 +05:30 [INF] Hosting environment: Development
+2026-08-29 14:50:56.451 +05:30 [INF] Content root path: D:\Arul-sir-training\Projects\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-29 14:50:57.152 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 14:50:57.485 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 348.8312ms
+2026-08-29 14:50:57.507 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 14:50:57.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 14:50:57.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 14:50:57.604 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 99.9254ms
+2026-08-29 14:50:57.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 14:50:57.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 14:50:57.508 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 14:50:57.604 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 99.9219ms
+2026-08-29 14:50:57.618 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 112.4798ms
+2026-08-29 14:50:57.637 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 14:50:57.650 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 145.2972ms
+2026-08-29 14:50:57.659 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 200 null application/javascript;charset=utf-8 154.7492ms
+2026-08-29 14:50:57.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 164.2073ms
+2026-08-29 14:50:57.778 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.5997ms
+2026-08-29 14:50:57.875 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 14:50:57.903 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.7074ms
+2026-08-29 14:52:27.751 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-29 14:52:28.039 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 14:52:28.162 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-29 14:52:28.331 +05:30 [INF] Login successfully
+2026-08-29 14:52:28.523 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 14:52:28.619 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 420.2737ms
+2026-08-29 14:52:28.638 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 14:52:28.647 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 896.6097ms
+2026-08-29 14:53:18.801 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 14:53:18.989 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 14:53:19.016 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
+2026-08-29 14:53:28.305 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-08-29 14:53:33.475 +05:30 [INF] Executed DbCommand (220ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_Users_GetAll
+2026-08-29 14:53:33.668 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InvoiceCoreAPI.Data.AppDbContext'.
+System.InvalidOperationException: The required column 'Password' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Password' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-08-29 14:53:34.341 +05:30 [INF] Executing ObjectResult, writing value of type 'InvoiceCoreAPI.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 14:53:34.386 +05:30 [INF] Executed action InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI) in 15364.5079ms
+2026-08-29 14:53:34.407 +05:30 [INF] Executed endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 14:53:34.480 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - 500 null application/json; charset=utf-8 15679.5033ms
+2026-08-29 15:07:49.406 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 15:07:49.432 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 26.1122ms
+2026-08-29 15:07:49.442 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 15:07:49.442 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 15:07:49.445 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 15:07:49.478 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 15:07:49.478 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 36.7185ms
+2026-08-29 15:07:49.482 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 15:07:49.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 36.2085ms
+2026-08-29 15:07:49.494 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 51.8137ms
+2026-08-29 15:07:49.500 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 55.1846ms
+2026-08-29 15:07:49.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 30.2291ms
+2026-08-29 15:07:49.514 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 15:07:49.486 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 15:07:49.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 58.2839ms
+2026-08-29 15:07:49.561 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.387ms
+2026-08-29 15:07:49.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 15:07:49.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/favicon-32x32.png - null null
+2026-08-29 15:07:49.623 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/favicon-32x32.png - 304 null null 12.5543ms
+2026-08-29 15:07:49.628 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.9976ms
+2026-08-29 15:07:58.142 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 15:07:58.180 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-08-29 15:07:58.203 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-08-29 15:07:58.207 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - 401 0 null 65.0432ms
+2026-08-29 15:08:00.251 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 15:08:00.265 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-08-29 15:08:00.267 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-08-29 15:08:00.274 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - 401 0 null 23.1316ms
+2026-08-29 15:09:26.247 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-29 15:09:26.266 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 15:09:26.269 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-29 15:09:26.275 +05:30 [INF] Login successfully
+2026-08-29 15:09:26.279 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 15:09:26.285 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 11.6701ms
+2026-08-29 15:09:26.288 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 15:09:26.290 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 43.1208ms
+2026-08-29 15:17:13.264 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 15:17:13.271 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 15:17:13.272 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
+2026-08-29 15:17:55.556 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_Users_GetAll
+2026-08-29 15:17:55.560 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InvoiceCoreAPI.Data.AppDbContext'.
+System.InvalidOperationException: The required column 'Password' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Password' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-08-29 15:42:36.363 +05:30 [INF] Executing ObjectResult, writing value of type 'InvoiceCoreAPI.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 15:42:36.460 +05:30 [INF] Executed action InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI) in 1523184.8142ms
+2026-08-29 15:42:36.468 +05:30 [INF] Executed endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 15:42:36.508 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - 500 null application/json; charset=utf-8 1523243.703ms
+2026-08-29 15:42:42.511 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 15:42:42.545 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 33.9775ms
+2026-08-29 15:42:42.558 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 15:42:42.558 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 15:42:42.560 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 15:42:42.560 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 15:42:42.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 15:42:42.561 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 15:42:42.563 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 5.0216ms
+2026-08-29 15:42:42.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 9.1354ms
+2026-08-29 15:42:42.571 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 11.028ms
+2026-08-29 15:42:42.575 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 14.7094ms
+2026-08-29 15:42:42.579 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 18.6921ms
+2026-08-29 15:42:42.583 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 22.1328ms
+2026-08-29 15:42:42.588 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 15:42:42.626 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2425ms
+2026-08-29 15:42:42.657 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 15:42:42.660 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/favicon-32x32.png - null null
+2026-08-29 15:42:42.665 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/favicon-32x32.png - 304 null null 5.1961ms
+2026-08-29 15:42:42.672 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.5907ms
+2026-08-29 15:44:45.374 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-29 15:44:45.515 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-29 15:44:45.557 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-29 15:44:45.557 +05:30 [INF] Hosting environment: Development
+2026-08-29 15:44:45.558 +05:30 [INF] Content root path: D:\Arul-sir-training\Projects\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-29 15:44:46.115 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 15:44:46.293 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 190.0737ms
+2026-08-29 15:44:46.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 15:44:46.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 15:44:46.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 15:44:46.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 15:44:46.308 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 15:44:46.327 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 15:44:46.361 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 53.5092ms
+2026-08-29 15:44:46.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 55.7379ms
+2026-08-29 15:44:46.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 65.3705ms
+2026-08-29 15:44:46.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 65.3723ms
+2026-08-29 15:44:46.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 64.1266ms
+2026-08-29 15:44:46.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 64.578ms
+2026-08-29 15:44:46.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 15:44:46.416 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.3005ms
+2026-08-29 15:44:46.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 15:44:46.546 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8216ms
+2026-08-29 15:47:46.636 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-29 15:47:46.870 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-29 15:47:46.940 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-29 15:47:46.942 +05:30 [INF] Hosting environment: Development
+2026-08-29 15:47:46.943 +05:30 [INF] Content root path: D:\Arul-sir-training\Projects\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-29 15:47:47.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 15:47:47.617 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 270.7286ms
+2026-08-29 15:47:47.627 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 15:47:47.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 15:47:47.627 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 15:47:47.639 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 10.8829ms
+2026-08-29 15:47:47.627 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 15:47:47.648 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 15:47:47.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 22.9367ms
+2026-08-29 15:47:47.652 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 25.2273ms
+2026-08-29 15:47:47.627 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 15:47:47.648 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 22.9373ms
+2026-08-29 15:47:47.627 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 15:47:47.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 42.9978ms
+2026-08-29 15:47:47.682 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 54.9653ms
+2026-08-29 15:47:47.689 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5731ms
+2026-08-29 15:47:47.845 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 15:47:47.855 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.4972ms
+2026-08-29 15:48:08.026 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-29 15:48:08.219 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 15:48:08.316 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-29 15:48:08.421 +05:30 [INF] Login successfully
+2026-08-29 15:48:08.526 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 15:48:08.590 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 234.9011ms
+2026-08-29 15:48:08.600 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 15:48:08.606 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 579.8227ms
+2026-08-29 15:49:00.819 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 15:49:01.080 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 15:49:01.113 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
+2026-08-29 15:49:05.332 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-08-29 15:49:24.672 +05:30 [ERR] An error occurred using the connection to database 'InvoiceManagementDB' on server 'host.docker.internal,1435'.
+2026-08-29 15:49:24.761 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InvoiceCoreAPI.Data.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+ ---> System.ComponentModel.Win32Exception (11001): No such host is known.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:11001,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+ ---> System.ComponentModel.Win32Exception (11001): No such host is known.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:11001,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-08-29 15:49:25.166 +05:30 [INF] Executing ObjectResult, writing value of type 'InvoiceCoreAPI.Models.ApiResponse`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 15:49:25.201 +05:30 [INF] Executed action InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI) in 24079.4361ms
+2026-08-29 15:49:25.215 +05:30 [INF] Executed endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 15:49:25.261 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - 500 null application/json; charset=utf-8 24440.4645ms
+2026-08-29 16:23:04.507 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-29 16:23:04.761 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-29 16:23:04.879 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-29 16:23:04.881 +05:30 [INF] Hosting environment: Development
+2026-08-29 16:23:04.882 +05:30 [INF] Content root path: D:\Arul-sir-training\Projects\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-29 16:23:05.383 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 16:23:05.805 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 438.7943ms
+2026-08-29 16:23:05.813 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 16:23:05.813 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 16:23:05.826 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 12.9016ms
+2026-08-29 16:23:05.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 16:23:05.844 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 16:23:05.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 46.0481ms
+2026-08-29 16:23:05.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 45.2676ms
+2026-08-29 16:23:05.820 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 16:23:05.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 16:23:05.812 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 16:23:05.913 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 93.1581ms
+2026-08-29 16:23:05.919 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 105.6298ms
+2026-08-29 16:23:05.935 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 124.4739ms
+2026-08-29 16:23:05.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.3026ms
+2026-08-29 16:23:06.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 16:23:06.060 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.9339ms
+2026-08-29 16:23:30.546 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-29 16:23:30.825 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 16:23:30.993 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-29 16:23:31.196 +05:30 [INF] Login successfully
+2026-08-29 16:23:31.373 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 16:23:31.482 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 440.2849ms
+2026-08-29 16:23:31.493 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 16:23:31.503 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 956.9055ms
+2026-08-29 16:23:58.562 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 16:23:58.767 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 16:23:58.791 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
+2026-08-29 16:24:14.790 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-08-29 16:24:34.554 +05:30 [ERR] An error occurred using the connection to database 'InvoiceManagementDB' on server 'host.docker.internal,1435'.
+2026-08-29 16:24:34.638 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InvoiceCoreAPI.Data.AppDbContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+ ---> System.ComponentModel.Win32Exception (11001): No such host is known.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:11001,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No such host is known.)
+ ---> System.ComponentModel.Win32Exception (11001): No such host is known.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:11001,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-08-29 16:25:55.187 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-29 16:25:55.368 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-29 16:25:55.426 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-29 16:25:55.448 +05:30 [INF] Hosting environment: Development
+2026-08-29 16:25:55.469 +05:30 [INF] Content root path: D:\Arul-sir-training\Projects\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-29 16:25:55.816 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 16:25:56.046 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 239.7265ms
+2026-08-29 16:25:56.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 16:25:56.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 16:25:56.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 16:25:56.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 16:25:56.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 16:25:56.054 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 16:25:56.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 48.7651ms
+2026-08-29 16:25:56.102 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 47.8906ms
+2026-08-29 16:25:56.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 96.1328ms
+2026-08-29 16:25:56.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 16:25:56.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 94.9578ms
+2026-08-29 16:25:56.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 97.8144ms
+2026-08-29 16:25:56.149 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 96.2566ms
+2026-08-29 16:25:56.243 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.0921ms
+2026-08-29 16:25:56.280 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 16:25:56.293 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.3458ms
+2026-08-29 16:26:14.146 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-29 16:26:14.373 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 16:26:14.590 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-29 16:26:14.912 +05:30 [INF] Login successfully
+2026-08-29 16:26:15.152 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 16:26:15.299 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 623.4508ms
+2026-08-29 16:26:15.322 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 16:26:15.334 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 1187.4078ms
+2026-08-29 16:26:39.339 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 16:26:39.703 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 16:26:39.748 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
+2026-08-29 16:27:01.295 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-08-29 16:27:06.725 +05:30 [INF] Executed DbCommand (254ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_Users_GetAll
+2026-08-29 16:27:06.875 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InvoiceCoreAPI.Data.AppDbContext'.
+System.InvalidOperationException: The required column 'PasswordHash' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'PasswordHash' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2026-08-29 16:31:06.954 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-29 16:31:07.148 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-29 16:31:07.201 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-29 16:31:07.228 +05:30 [INF] Hosting environment: Development
+2026-08-29 16:31:07.274 +05:30 [INF] Content root path: D:\Arul-sir-training\Projects\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-29 16:31:07.654 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-29 16:31:07.898 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 256.1359ms
+2026-08-29 16:31:07.944 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-29 16:31:07.907 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-29 16:31:07.907 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-29 16:31:07.983 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-29 16:31:07.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-29 16:31:07.978 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-29 16:31:08.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 67.0881ms
+2026-08-29 16:31:08.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 104.1212ms
+2026-08-29 16:31:08.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 105.9218ms
+2026-08-29 16:31:08.011 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 27.8909ms
+2026-08-29 16:31:08.006 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 29.1234ms
+2026-08-29 16:31:08.023 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 45.8217ms
+2026-08-29 16:31:08.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-29 16:31:08.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.4143ms
+2026-08-29 16:31:08.178 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-29 16:31:08.206 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.6727ms
+2026-08-29 16:31:35.660 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-29 16:31:36.059 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 16:31:36.302 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-29 16:31:36.650 +05:30 [INF] Login successfully
+2026-08-29 16:31:36.944 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-29 16:31:37.044 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 658.6261ms
+2026-08-29 16:31:37.064 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-29 16:31:37.070 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 1411.0434ms
+2026-08-29 16:31:59.793 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-29 16:32:00.299 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-29 16:32:00.365 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
+2026-08-29 16:32:21.985 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-08-29 16:32:28.292 +05:30 [INF] Executed DbCommand (240ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+EXEC sp_Users_GetAll
+2026-08-29 16:32:28.473 +05:30 [ERR] An exception occurred while iterating over the results of a query for context type 'InvoiceCoreAPI.Data.AppDbContext'.
+System.InvalidOperationException: The required column 'PasswordHash' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'PasswordHash' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()

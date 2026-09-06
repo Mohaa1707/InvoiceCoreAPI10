@@ -1,0 +1,369 @@
+2026-08-23 17:33:41.743 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 17:33:41.968 +05:30 [INF] Now listening on: https://localhost:7107
+2026-08-23 17:33:41.969 +05:30 [INF] Now listening on: http://localhost:5088
+2026-08-23 17:33:42.004 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 17:33:42.005 +05:30 [INF] Hosting environment: Development
+2026-08-23 17:33:42.005 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceAPI\InvoiceManagementSystem
+2026-08-23 18:27:02.999 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:27:03.214 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:27:03.216 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:27:03.259 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:27:03.260 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:27:03.261 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:27:56.373 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:27:56.540 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:27:56.541 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:27:56.588 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:27:56.589 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:27:56.591 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:28:19.970 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:20.529 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 573.4712ms
+2026-08-23 18:28:20.542 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:22.670 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:22.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 17.0185ms
+2026-08-23 18:28:22.731 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:24.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:24.739 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 13.438ms
+2026-08-23 18:28:24.745 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:25.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:25.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 9.0462ms
+2026-08-23 18:28:25.934 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:26.371 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:26.382 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 10.2834ms
+2026-08-23 18:28:26.387 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:26.740 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:26.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 7.7775ms
+2026-08-23 18:28:26.752 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:27.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:27.131 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 9.5349ms
+2026-08-23 18:28:27.136 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:27.338 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:27.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 6.4475ms
+2026-08-23 18:28:27.351 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:27.671 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:27.678 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 7.2186ms
+2026-08-23 18:28:27.681 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:28.019 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:28.026 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 7.1468ms
+2026-08-23 18:28:28.031 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:28:28.246 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:28:28.254 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 7.8656ms
+2026-08-23 18:28:28.260 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:31:56.041 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:31:56.289 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:31:56.291 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:31:56.343 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:31:56.344 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:31:56.345 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:35:56.985 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:35:57.202 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:35:57.203 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:35:57.244 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:35:57.245 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:35:57.246 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:42:26.686 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:42:26.971 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:42:26.973 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:42:27.025 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:42:27.026 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:42:27.027 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:42:53.146 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2026-08-23 18:42:53.500 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 null null 368.3004ms
+2026-08-23 18:42:53.512 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2026-08-23 18:42:55.530 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2026-08-23 18:42:55.548 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 null null 17.2201ms
+2026-08-23 18:42:55.553 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2026-08-23 18:42:56.450 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2026-08-23 18:42:56.467 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 null null 17.1802ms
+2026-08-23 18:42:56.473 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2026-08-23 18:44:40.296 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2026-08-23 18:44:40.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.3033ms
+2026-08-23 18:44:40.401 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/favicon.ico - null null
+2026-08-23 18:44:40.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/favicon.ico - 404 0 null 5.9432ms
+2026-08-23 18:44:40.413 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/favicon.ico, Response status code: 404
+2026-08-23 18:44:58.158 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2026-08-23 18:44:58.179 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 20.7195ms
+2026-08-23 18:45:03.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/ - null null
+2026-08-23 18:45:03.590 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/ - 301 null null 7.2597ms
+2026-08-23 18:45:03.594 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2026-08-23 18:45:03.745 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 200 null text/html;charset=utf-8 150.9713ms
+2026-08-23 18:45:03.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/swagger-ui.css - null null
+2026-08-23 18:45:03.753 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.css - null null
+2026-08-23 18:45:03.754 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/swagger-ui-bundle.js - null null
+2026-08-23 18:45:03.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-23 18:45:03.754 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.js - null null
+2026-08-23 18:45:03.783 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2026-08-23 18:45:03.810 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.js - 200 null application/javascript;charset=utf-8 55.9813ms
+2026-08-23 18:45:03.784 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-23 18:45:03.828 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.css - 200 152 text/css 74.886ms
+2026-08-23 18:45:03.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/swagger-ui.css - 200 26499 text/css 113.0567ms
+2026-08-23 18:45:03.872 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/swagger-ui-standalone-preset.js - 200 77731 text/javascript 117.676ms
+2026-08-23 18:45:03.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/swagger-ui-bundle.js - 200 421507 text/javascript 123.4484ms
+2026-08-23 18:45:03.875 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 91.2745ms
+2026-08-23 18:45:03.983 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 200.3278ms
+2026-08-23 18:45:04.034 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2026-08-23 18:45:04.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/favicon-32x32.png - null null
+2026-08-23 18:45:04.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.0198ms
+2026-08-23 18:45:04.052 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/favicon-32x32.png - 200 628 image/png 6.0667ms
+2026-08-23 18:58:24.822 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:58:25.007 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:58:25.008 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:58:25.047 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:58:25.048 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:58:25.049 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:58:49.527 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 18:58:49.742 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 18:58:49.744 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 18:58:49.792 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 18:58:49.793 +05:30 [INF] Hosting environment: Development
+2026-08-23 18:58:49.794 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 18:59:45.006 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5232/ - null null
+2026-08-23 18:59:45.351 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5232/ - 404 null null 360.3482ms
+2026-08-23 18:59:45.364 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5232/, Response status code: 404
+2026-08-23 18:59:54.591 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:59:54.611 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 19.6591ms
+2026-08-23 18:59:54.620 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:59:57.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:59:57.384 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 22.4593ms
+2026-08-23 18:59:57.392 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:59:58.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:59:58.730 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 7.5926ms
+2026-08-23 18:59:58.736 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:59:59.433 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:59:59.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 6.5315ms
+2026-08-23 18:59:59.444 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 18:59:59.829 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 18:59:59.836 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 6.8068ms
+2026-08-23 18:59:59.840 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 19:00:00.202 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 19:00:00.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 14.2102ms
+2026-08-23 19:00:00.225 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 19:00:00.668 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 19:00:00.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 5.8962ms
+2026-08-23 19:00:00.680 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 19:00:01.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 19:00:01.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 7.9551ms
+2026-08-23 19:00:01.043 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 19:00:01.351 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/ - null null
+2026-08-23 19:00:01.356 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/ - 404 null null 5.5119ms
+2026-08-23 19:00:01.360 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/, Response status code: 404
+2026-08-23 19:00:28.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2026-08-23 19:00:28.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.0438ms
+2026-08-23 19:00:34.241 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger/ - null null
+2026-08-23 19:00:34.251 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger/ - 404 null null 9.7442ms
+2026-08-23 19:00:34.257 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/swagger/v1/swagger/, Response status code: 404
+2026-08-23 19:00:36.446 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger/ - null null
+2026-08-23 19:00:36.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger/ - 404 null null 10.1212ms
+2026-08-23 19:00:36.461 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7183/swagger/v1/swagger/, Response status code: 404
+2026-08-23 19:00:42.403 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - null null
+2026-08-23 19:00:42.546 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - 304 null null 143.1331ms
+2026-08-23 19:00:42.569 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/swagger-ui.css - null null
+2026-08-23 19:00:42.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/swagger-ui-bundle.js - null null
+2026-08-23 19:00:42.571 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-23 19:00:42.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-23 19:00:42.570 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.css - null null
+2026-08-23 19:00:42.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - null null
+2026-08-23 19:00:42.575 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.js - null null
+2026-08-23 19:00:42.601 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 30.0878ms
+2026-08-23 19:00:42.611 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/swagger-ui-standalone-preset.js - 304 null null 41.2528ms
+2026-08-23 19:00:42.611 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/swagger-ui-bundle.js - 304 null null 41.416ms
+2026-08-23 19:00:42.611 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.css - 304 null null 41.4341ms
+2026-08-23 19:00:42.611 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/swagger-ui.css - 304 null null 42.1401ms
+2026-08-23 19:00:42.614 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.js - 200 null application/javascript;charset=utf-8 39.4366ms
+2026-08-23 19:00:42.672 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - 200 null text/javascript; charset=UTF-8 97.6521ms
+2026-08-23 19:00:42.782 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - null null
+2026-08-23 19:00:42.823 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.6362ms
+2026-08-23 19:05:36.495 +05:30 [INF] Application is shutting down...
+2026-08-23 19:14:12.560 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 19:14:12.784 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 19:14:12.785 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 19:14:12.828 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 19:14:12.829 +05:30 [INF] Hosting environment: Development
+2026-08-23 19:14:12.830 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 19:26:29.030 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 19:26:29.210 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 19:26:29.211 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 19:26:29.252 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 19:26:29.253 +05:30 [INF] Hosting environment: Development
+2026-08-23 19:26:29.254 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 19:33:48.234 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 19:33:48.441 +05:30 [INF] Now listening on: https://localhost:7183
+2026-08-23 19:33:48.442 +05:30 [INF] Now listening on: http://localhost:5232
+2026-08-23 19:33:48.618 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 19:33:48.619 +05:30 [INF] Hosting environment: Development
+2026-08-23 19:33:48.620 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 19:35:58.010 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 19:35:58.189 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-23 19:35:58.255 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 19:35:58.257 +05:30 [INF] Hosting environment: Development
+2026-08-23 19:35:58.259 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 19:35:58.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger - null null
+2026-08-23 19:35:58.904 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger - 301 null null 246.4483ms
+2026-08-23 19:35:58.911 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-23 19:35:58.995 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 200 null text/html;charset=utf-8 85.2294ms
+2026-08-23 19:35:59.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-23 19:35:59.002 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-23 19:35:59.004 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-23 19:35:59.004 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-23 19:35:59.004 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-23 19:35:59.004 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-23 19:35:59.020 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 15.9853ms
+2026-08-23 19:35:59.021 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 200 null application/javascript;charset=utf-8 17.2449ms
+2026-08-23 19:35:59.027 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 200 152 text/css 24.8285ms
+2026-08-23 19:35:59.027 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 200 26499 text/css 24.3326ms
+2026-08-23 19:35:59.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-23 19:35:59.030 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 200 77731 text/javascript 26.3912ms
+2026-08-23 19:35:59.041 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 200 421507 text/javascript 37.077ms
+2026-08-23 19:35:59.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.0184ms
+2026-08-23 19:35:59.200 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-23 19:35:59.211 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.2445ms
+2026-08-23 19:35:59.217 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/favicon-32x32.png - null null
+2026-08-23 19:35:59.222 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/favicon-32x32.png - 200 628 image/png 5.4853ms
+2026-08-23 19:39:58.501 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 19:39:58.617 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-23 19:39:58.654 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 19:39:58.654 +05:30 [INF] Hosting environment: Development
+2026-08-23 19:39:58.655 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 19:39:58.988 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-23 19:39:59.159 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 180.9422ms
+2026-08-23 19:39:59.174 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-23 19:39:59.174 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-23 19:39:59.175 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-23 19:39:59.174 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-23 19:39:59.177 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-23 19:39:59.189 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 14.135ms
+2026-08-23 19:39:59.178 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-23 19:39:59.195 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 18.4225ms
+2026-08-23 19:39:59.208 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 28.7228ms
+2026-08-23 19:39:59.208 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 27.241ms
+2026-08-23 19:39:59.208 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 34.1173ms
+2026-08-23 19:39:59.209 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 32.109ms
+2026-08-23 19:39:59.227 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-23 19:39:59.257 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.9026ms
+2026-08-23 19:39:59.354 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-23 19:39:59.363 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.0042ms
+2026-08-23 19:40:33.774 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-23 19:40:34.019 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-23 19:40:34.089 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-23 19:40:34.172 +05:30 [INF] Login successfully
+2026-08-23 19:40:34.259 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-23 19:40:34.288 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 184.8073ms
+2026-08-23 19:40:34.292 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-23 19:40:34.295 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 520.2293ms
+2026-08-23 19:44:41.372 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Users/Create - application/json 646
+2026-08-23 19:44:41.455 +05:30 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-08-23 19:44:41.491 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-08-23 19:44:41.509 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-08-23 19:44:41.525 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-08-23 19:44:41.528 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Users/Create - 401 0 null 156.3662ms
+2026-08-23 19:45:03.913 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-23 19:45:03.923 +05:30 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-08-23 19:45:03.927 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-08-23 19:45:03.929 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-23 19:45:03.933 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-23 19:45:03.939 +05:30 [INF] Login successfully
+2026-08-23 19:45:03.942 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-23 19:45:03.946 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 9.1184ms
+2026-08-23 19:45:03.949 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-23 19:45:03.952 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 39.23ms
+2026-08-23 19:46:08.685 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Users/Create - application/json 646
+2026-08-23 19:46:08.691 +05:30 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-08-23 19:46:08.693 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-08-23 19:46:08.695 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-08-23 19:46:08.697 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-08-23 19:46:08.698 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Users/Create - 401 0 null 13.3076ms
+2026-08-23 19:47:00.583 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Users/Create - application/json 646
+2026-08-23 19:47:00.586 +05:30 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-08-23 19:47:00.589 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-08-23 19:47:00.595 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-08-23 19:47:00.598 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-08-23 19:47:00.600 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Users/Create - 401 0 null 17.6322ms
+2026-08-23 19:48:03.201 +05:30 [INF] User profile is available. Using 'C:\Users\mithr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-08-23 19:48:03.394 +05:30 [INF] Now listening on: http://localhost:5187
+2026-08-23 19:48:03.455 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-08-23 19:48:03.456 +05:30 [INF] Hosting environment: Development
+2026-08-23 19:48:03.460 +05:30 [INF] Content root path: D:\Arul-sir-training\InvoiceManagementSystems\InvoiceCoreAPI
+2026-08-23 19:48:03.746 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.html - null null
+2026-08-23 19:48:03.931 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.html - 304 null null 192.7596ms
+2026-08-23 19:48:03.943 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - null null
+2026-08-23 19:48:03.945 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - null null
+2026-08-23 19:48:03.945 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.css - null null
+2026-08-23 19:48:03.947 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/index.js - null null
+2026-08-23 19:48:03.945 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - null null
+2026-08-23 19:48:03.945 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - null null
+2026-08-23 19:48:03.962 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.js - 304 null null 16.1611ms
+2026-08-23 19:48:03.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 26.2679ms
+2026-08-23 19:48:03.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-bundle.js - 304 null null 26.7502ms
+2026-08-23 19:48:03.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/index.css - 304 null null 26.6189ms
+2026-08-23 19:48:03.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui-standalone-preset.js - 304 null null 26.7091ms
+2026-08-23 19:48:03.971 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/swagger-ui.css - 304 null null 29.6731ms
+2026-08-23 19:48:03.977 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/_vs/browserLink - null null
+2026-08-23 19:48:04.016 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.7649ms
+2026-08-23 19:48:04.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - null null
+2026-08-23 19:48:04.056 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.7115ms
+2026-08-23 19:48:35.064 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5187/api/Login/Login - application/json 51
+2026-08-23 19:48:35.161 +05:30 [INF] Executing endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-23 19:48:35.212 +05:30 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(InvoiceCoreAPI.DTO.LoginDto) on controller BookLibrary.Controllers.LoginController (InvoiceCoreAPI).
+2026-08-23 19:48:35.285 +05:30 [INF] Login successfully
+2026-08-23 19:48:35.342 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-08-23 19:48:35.370 +05:30 [INF] Executed action BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI) in 146.1725ms
+2026-08-23 19:48:35.374 +05:30 [INF] Executed endpoint 'BookLibrary.Controllers.LoginController.Login (InvoiceCoreAPI)'
+2026-08-23 19:48:35.377 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5187/api/Login/Login - 200 null application/json; charset=utf-8 313.506ms
+2026-08-23 19:49:13.559 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-23 19:49:13.629 +05:30 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-08-23 19:49:13.663 +05:30 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-08-23 19:49:13.678 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-08-23 19:49:13.694 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-08-23 19:49:13.697 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - 401 0 null 138.2309ms
+2026-08-23 19:52:03.251 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5187/api/Users/GetAll - null null
+2026-08-23 19:52:03.343 +05:30 [INF] Executing endpoint 'InvoiceCoreAPI.Controllers.UsersController.GetAll (InvoiceCoreAPI)'
+2026-08-23 19:52:03.361 +05:30 [INF] Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller InvoiceCoreAPI.Controllers.UsersController (InvoiceCoreAPI).
