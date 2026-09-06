@@ -5,6 +5,7 @@ using InvoiceCoreAPI.Middleware;
 using InvoiceCoreAPI.Repositories;
 using InvoiceCoreAPI.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -34,6 +35,7 @@ builder.Services.AddScoped<IDbConnection>(sp =>
 
     return new SqlConnection(connectionString);
 });
+
 builder.Services.AddScoped<IItemmasterRepository, ItemmasterRepositoriesEFSp>();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepositories>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepositories>();
@@ -50,6 +52,30 @@ builder.Services.AddAutoMapper(cfg => { }, typeof(CustomerProfile));
 builder.Services.AddAutoMapper(cfg => { }, typeof(VendorProfile));
 builder.Services.AddAutoMapper(cfg => { }, typeof(UsersProfile));
 
+builder.Services.AddApiVersioning(options =>
+
+{
+
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+
+    options.AssumeDefaultVersionWhenUnspecified = true;
+
+    options.ReportApiVersions = true;
+
+});
+
+builder.Services.AddVersionedApiExplorer(options =>
+
+{
+
+    options.GroupNameFormat = "'v'VVV";
+
+    options.SubstituteApiVersionInUrl = true;
+
+});
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 var jwtKey = builder.Configuration["Jwt:Key"] ?? "v2UJQxTrwUCqqJkehkxvSUZKQCX6gNmRWq7q1bWa3Jw=";
 var jwtIssuer = builder.Configuration["Jwt:Issuer"] ?? "yourapiissuer";
 
@@ -71,10 +97,6 @@ builder.Services.AddAuthentication(options =>
 });
 
 // Add services to the container.
-builder.Services.AddControllers();
-
-builder.Services.AddEndpointsApiExplorer();
-
 builder.Services.AddSwaggerGen(c =>
 {
     c.EnableAnnotations();

@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace InvoiceCoreAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
     [Authorize]
     public class CustomerController : ControllerBase
     {
