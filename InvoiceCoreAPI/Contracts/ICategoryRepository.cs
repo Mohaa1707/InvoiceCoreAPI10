@@ -1,5 +1,6 @@
 ﻿using InvoiceCoreAPI.DTO;
 using InvoiceCoreAPI.Entities;
+using InvoiceCoreAPI.Models.AI;
 
 namespace InvoiceCoreAPI.Contracts;
 
@@ -15,4 +16,9 @@ public interface ICategoryRepository
     string? Name,
     int pageNumber,
     int pageSize);
+    Task<Category?> GetByNameAsync(string name);
+    Task<CategoryItemCountResult?> GetCategoryItemCountAsync(
+    string categoryName,
+    bool categoryActiveOnly,
+    bool? itemActiveOnly);
 }
