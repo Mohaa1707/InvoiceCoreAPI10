@@ -11,12 +11,13 @@ public class ItemMasterServiceEFSp : IItemMasterService
 {
     private readonly IItemmasterRepository _repository;
     private readonly IMapper _mapper;
-    private readonly ILogger<ItemMasterServiceEFSp> _logger;
-    public ItemMasterServiceEFSp(IItemmasterRepository repository, IMapper mapper, ILogger<ItemMasterServiceEFSp> logger)
+    //private readonly ILogger<ItemMasterServiceEFSp> _logger;
+    public ItemMasterServiceEFSp(IItemmasterRepository repository, IMapper mapper)
+        //ILogger<ItemMasterServiceEFSp> logger
     {
         _repository = repository;
         _mapper = mapper;
-        _logger = logger;
+        //_logger = logger;
     }
     public async Task<int> AddAsync(ItemmasterDto dto)
     {
@@ -45,7 +46,7 @@ public class ItemMasterServiceEFSp : IItemMasterService
     public async Task<PagedResultDto<ItemmasterDto>> GetAllPagedAsync(
 ItemmasterFilterDto search)
     {
-        _logger.LogInformation("ItemMaster Service GetAllPaged Method Called ");
+        //_logger.LogInformation("ItemMaster Service GetAllPaged Method Called ");
         var result = await _repository.GetAllPagedAsync(
             search);
 
@@ -54,5 +55,14 @@ ItemmasterFilterDto search)
             Data = _mapper.Map<IEnumerable<ItemmasterDto>>(result.Data),
             TotalRecords = result.TotalRecords
         };
+    }
+
+    public async Task<int> GetActiveItemCountByCategoryAsync(int categoryId)
+    {
+        var items = await _repository.GetAllAsync();
+
+        return items.Count(x =>
+            x.CategoryId == categoryId &&
+            x.IsActive == true);
     }
 }

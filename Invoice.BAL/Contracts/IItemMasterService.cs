@@ -11,4 +11,6 @@ public interface IItemMasterService
     Task<bool> DeleteAsync(int id);
 
     Task<PagedResultDto<ItemmasterDto>> GetAllPagedAsync(ItemmasterFilterDto search);
+
+    Task<int> GetActiveItemCountByCategoryAsync(int categoryId);
 }

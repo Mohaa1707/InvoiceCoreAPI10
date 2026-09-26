@@ -1,3 +1,0 @@
-﻿namespace Invoice.BAL.Tests;
-
-

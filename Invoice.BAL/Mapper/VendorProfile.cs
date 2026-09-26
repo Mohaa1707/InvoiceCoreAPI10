@@ -4,7 +4,7 @@ using AutoMapper;
 
 namespace Invoice.BAL.Mapper
 {
-    internal class VendorProfile : Profile
+    public class VendorProfile : Profile
     {
         public VendorProfile()
         {
