@@ -10,14 +10,8 @@ namespace Invoice.DAL.Contracts
         Task<CustomerEntity?> GetByIdAsync(int id);
         Task<bool> UpdateAsync(CustomerEntity entity);
         Task<bool> DeleteAsync(int id);
-        Task<PagedResultDto<CustomerEntity>> GetAllPagedAsync(
-            string? CustomerCode,
-            string? CustomerName,
-            string? MobileNo,
-            string? City,
-            int PageNumber,
-            int PageSize
-            );
+        Task<PagedResultDto<CustomerEntity>> GetAllPagedAsync(string? CustomerCode,string? CustomerName,string? MobileNo,string? City,int PageNumber,int PageSize);
+        Task<int> GetCustomerCountAsync(bool? activeOnly);
 
     }
 }

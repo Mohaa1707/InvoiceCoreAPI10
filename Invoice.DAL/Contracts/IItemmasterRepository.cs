@@ -11,5 +11,6 @@ namespace Invoice.DAL.Contracts
         Task<bool> UpdateAsync(ItemmasterEntity entity);
         Task<bool> DeleteAsync(int id);
         Task<PagedResultDto<ItemmasterEntity>> GetAllPagedAsync(ItemmasterFilterDto search);
+        Task<int> GetActiveItemCountByCategoryAsync(int categoryId);
     }
 }

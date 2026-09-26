@@ -1,8 +1,8 @@
-﻿namespace InvoiceCoreAPI.Models
+﻿namespace InvoiceCoreAPI.Models;
+
+public class ApiError
 {
-    public class ApiError
-    {
-        public required string Code { get; set; }
-        public required string Details { get; set; }
-    }
+    public required string Code { get; set; }
+    public required string Details { get; set; }
+
 }

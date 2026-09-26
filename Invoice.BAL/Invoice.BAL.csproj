@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\" />
-    <Folder Include="Services\" />
+    <PackageReference Include="AutoMapper" Version="16.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Invoice.DAL\Invoice.DAL.csproj" />
+    <ProjectReference Include="..\Invoice.Data\Invoice.Data.csproj" />
+    <ProjectReference Include="..\Invoice.DTOs\Invoice.DTOs.csproj" />
+    <ProjectReference Include="..\Invoice.Model\Invoice.Model.csproj" />
   </ItemGroup>
 
 </Project>

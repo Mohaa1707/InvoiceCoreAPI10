@@ -14,11 +14,11 @@ namespace Invoice.DAL.Repositories
     public class ItemmasterRepositoriesEFSp : IItemmasterRepository
     {
         private readonly AppDbContext _dbContext;
-        private readonly ILogger<ItemmasterRepositoriesEFSp> _logger;
-        public ItemmasterRepositoriesEFSp(AppDbContext dbContext, ILogger<ItemmasterRepositoriesEFSp> logger)
+       // private readonly ILogger<ItemmasterRepositoriesEFSp> _logger;
+        public ItemmasterRepositoriesEFSp(AppDbContext dbContext)
         {
             _dbContext = dbContext;
-            _logger = logger;
+            //_logger = logger;
         }
         public async Task<int> AddAsync(ItemmasterEntity entity)
         {
@@ -107,7 +107,7 @@ namespace Invoice.DAL.Repositories
         public async Task<PagedResultDto<ItemmasterEntity>> GetAllPagedAsync(
          ItemmasterFilterDto search)
         {
-            _logger.LogInformation("ItemsMaster Service Repostiory GetAllPaged Async Method Called");
+            //_logger.LogInformation("ItemsMaster Service Repostiory GetAllPaged Async Method Called");
             using var connection = _dbContext.Database.GetDbConnection();
 
             if (connection.State != ConnectionState.Open)
@@ -222,6 +222,46 @@ namespace Invoice.DAL.Repositories
                 Data = items,
                 TotalRecords = totalRecords
             };
+        }
+
+        public async Task<int> GetActiveItemCountByCategoryAsync(int categoryId)
+
+        {
+
+            using var connection = _dbContext.Database.GetDbConnection();
+
+
+            if (connection.State != ConnectionState.Open)
+
+            {
+
+                await connection.OpenAsync();
+
+            }
+
+
+            using var command = connection.CreateCommand();
+
+
+            command.CommandText = "dbo.sp_Itemmaster_GetActiveCountByCategory";
+
+            command.CommandType = CommandType.StoredProcedure;
+
+
+            command.Parameters.Add(
+
+                new SqlParameter("@CategoryId", categoryId));
+
+
+            var result = await command.ExecuteScalarAsync();
+
+
+            return result == null || result == DBNull.Value
+
+                ? 0
+
+                : Convert.ToInt32(result);
+
         }
     }
 }
