@@ -1,6 +1,7 @@
-﻿using Invoice.Data.Db;
-using Invoice.DTOs;
+﻿using Invoice.DAL.Contracts;
+using Invoice.Data.Db;
 using Invoice.Data.Entities;
+using Invoice.DTOs;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
@@ -8,7 +9,7 @@ using System.Text;
 
 namespace Invoice.DAL.Repositories;
 
-public class VendorRepositories
+public class VendorRepositories : IVendorRepository
 {
     private readonly AppDbContext _dbContext;
     public VendorRepositories(AppDbContext dbContext)

@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
+using Invoice.BAL.Contracts;
+using Invoice.DAL.Contracts;
 using Invoice.Data.Entities;
 using Invoice.DTOs;
-using Invoice.DAL.Contracts;
 
 namespace Invoice.BAL.Services
 {
-    public class CategoryService
+    public class CategoryService : ICategoryService
     {
         private readonly ICategoryRepository _repository;
         private readonly IMapper _mapper;

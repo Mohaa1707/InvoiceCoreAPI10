@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Invoice.BAL.Services;
 
-public class UserServiceSpDap
+public class UserServiceSpDap : IUsersService
 {
     private readonly IUsersRepository _repository;
 

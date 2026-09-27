@@ -1,7 +1,8 @@
-﻿using Invoice.Data.Db;
+﻿using Invoice.DAL.Contracts;
+using Invoice.Data.Db;
+using Invoice.Data.Entities;
 using Invoice.DTOs;
 using Invoice.Model.AI;
-using Invoice.Data.Entities;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
@@ -9,7 +10,7 @@ using System.Text;
 
 namespace Invoice.DAL.Repositories
 {
-    public class CategoryRepositories
+    public class CategoryRepositories : ICategoryRepository
     {
         private readonly AppDbContext _dbContext;
         public CategoryRepositories(AppDbContext dbContext)
