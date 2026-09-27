@@ -10,13 +10,8 @@ namespace Invoice.DAL.Test;
 
 public class ItemmasterRepositoriesEFSpTests
 {
-    private const string ConnectionString =
-       "Server=Mohanrajmurugan\\SQLEXPRESS,1435;" +
-        "Database=Invoice_Test;" +
-        "User Id=sa;" +
-        "Password=Mohan;" +
-        "Encrypt=False;" +
-        "TrustServerCertificate=True";
+    private static string ConnectionString = TestDatabase.ConnectionString;
+
 
     private static AppDbContext CreateDbContext()
     {
