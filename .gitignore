@@ -18,3 +18,7 @@ ProductApi/logs/*.txt
  
 # VS Code (optional)
 .vscode/
+
+TestResults/
+coveragereport/
+CoverageReport/
