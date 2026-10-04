@@ -4,7 +4,7 @@
 # Build folders
 bin/
 obj/
-ProductApi/logs/*.txt
+InvoiceCoreAPI/logs/*.txt
  
 # User-specific files
 *.user
@@ -18,3 +18,8 @@ ProductApi/logs/*.txt
  
 # VS Code (optional)
 .vscode/
+
+TestResults/
+coveragereport/
+CoverageReport/
+Invoice.CoreAPI/logs/*.txt
