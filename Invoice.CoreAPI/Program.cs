@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
+using Invoice.AI;
 using System.Data;
 using System.Text;
 using Invoice.CoreAPI.Middleware;
@@ -215,6 +216,7 @@ builder.Services
 
 builder.Services.AddAuthorization();
 
+builder.Services.AddInvoiceAI(builder.Configuration);
 
 // ============================================================
 // Build Application
