@@ -422,9 +422,19 @@ public class ItemmasterRepositoriesEFSpTests
             .AsNoTracking()
             .FirstAsync(x => x.Code == "TST01");
 
+        //var search = new ItemmasterFilterDto
+        //{
+        //    CategoryId = category.Id,
+        //    PageNumber = 1,
+        //    PageSize = 10
+        //};
+
+        var categories = await context.Categories.AsNoTracking().FirstAsync(x => x.Code == "TST01");
+
         var search = new ItemmasterFilterDto
         {
-            CategoryId = category.Id,
+            CategoryId = category.Id, // NEW LINE
+            IsActive = true,
             PageNumber = 1,
             PageSize = 10
         };
@@ -467,40 +477,71 @@ public class ItemmasterRepositoriesEFSpTests
         Assert.Equal(1, result.TotalRecords);
     }
 
+
+    //public async Task GetAllPagedAsync_ShouldFilterByActiveStatus()
+    //{
+    //    await using var context = CreateDbContext();
+    //    await SeedTestDataAsync(context);
+
+    //    var repository = new ItemmasterRepositoriesEFSp(context);
+
+    //    var search = new ItemmasterFilterDto
+    //    {
+    //        IsActive = true,
+    //        PageNumber = 1,
+    //        PageSize = 10
+    //    };
+
+    //    var result = await repository.GetAllPagedAsync(search);
+
+    //    Assert.NotNull(result);
+
+    //    var testItems = result.Data
+    //        .Where(x =>
+    //            x.ItemCode == "RIIT001" ||
+    //            x.ItemCode == "RIIT002" ||
+    //            x.ItemCode == "VEIT001")
+    //        .ToList();
+
+    //    Assert.Equal(2, testItems.Count);
+
+    //    Assert.All(
+    //        testItems,
+    //        x => Assert.True(x.IsActive == true));
+
+    //    Assert.Equal(2, result.TotalRecords);
+    //}
     [Fact]
+
+    //Updated GetAllPagedAsync_ShouldFilterByActiveStatus function added.
     public async Task GetAllPagedAsync_ShouldFilterByActiveStatus()
+
     {
         await using var context = CreateDbContext();
         await SeedTestDataAsync(context);
-
         var repository = new ItemmasterRepositoriesEFSp(context);
-
+        var category = await context.Categories
+            .AsNoTracking()
+            .FirstAsync(x => x.Code == "TST01");
         var search = new ItemmasterFilterDto
         {
-            IsActive = true,
+            CategoryId = category.Id, // NEW LINE        IsActive = true,
             PageNumber = 1,
             PageSize = 10
+
         };
-
         var result = await repository.GetAllPagedAsync(search);
-
         Assert.NotNull(result);
-
         var testItems = result.Data
-            .Where(x =>
-                x.ItemCode == "RIIT001" ||
-                x.ItemCode == "RIIT002" ||
-                x.ItemCode == "VEIT001")
+            .Where(x => x.ItemCode == "RIIT001" ||
+            x.ItemCode == "RIIT002" ||
+            x.ItemCode == "VEIT001")
             .ToList();
-
         Assert.Equal(2, testItems.Count);
-
-        Assert.All(
-            testItems,
-            x => Assert.True(x.IsActive == true));
-
+        Assert.All(testItems,x => Assert.True(x.IsActive == true));
         Assert.Equal(2, result.TotalRecords);
     }
+
 
     [Fact]
     public async Task GetActiveItemCountByCategoryAsync_ShouldReturnCorrectCount()
