@@ -149,6 +149,11 @@ builder.Services.AddScoped<ISalesInvoiceService, SalesInvoiceServiceEFSp>();
 builder.Services.AddScoped<IStockRepository, StockRepositoryEFSp>();
 builder.Services.AddScoped<IStockService, StockServiceEFSp>();
 
+// ============================================================
+//  Master count Service 
+// ============================================================
+builder.Services.AddScoped<IMasterCountService, MasterCountService>();
+
 
 // ============================================================
 // Swagger
