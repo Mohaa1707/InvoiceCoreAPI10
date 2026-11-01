@@ -97,7 +97,7 @@ builder.Services.AddHttpClient<OllamaClient>((sp, client) =>
 builder.Services.AddTransient<ForwardJwtHandler>();
 builder.Services.AddHttpClient<CoreApiClient>(client =>
 {
-    var baseUrl = builder.Configuration["CoreApi:BaseUrl"] ?? "http://localhost:5213/";
+    var baseUrl = builder.Configuration["CoreApi:BaseUrl"] ?? "http://localhost:5063/";
     client.BaseAddress = new Uri(baseUrl.TrimEnd('/') + "/");
     client.Timeout = TimeSpan.FromSeconds(30);
 }).AddHttpMessageHandler<ForwardJwtHandler>();

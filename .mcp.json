@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "id": "ims-token",
+      "type": "promptString",
+      "description": "IMS JWT access token (from POST /api/v1/Login)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "IMS-MCP-Server": {
+      "type": "http",
+      "url": "http://localhost:3001/mcp",
+      "headers": {
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiI1IiwidW5pcXVlX25hbWUiOiJNb2hhbiIsImVtYWlsIjoibW9oYW5AZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6Ik1vaGFuIiwiZmFtaWx5X25hbWUiOiJNdXJ1Z2FuIiwiZGlzcGxheU5hbWUiOiJNb2hhbiIsIm5iZiI6MTc5MzUzNDU1NCwiZXhwIjoxNzkzNzUwNTU0LCJpYXQiOjE3OTM1MzQ1NTQsImlzcyI6Ikludm9pY2UuQXBpIiwiYXVkIjoiSW52b2ljZS5BcGkifQ.cEtGDMiM-JfRdH_YogKCeTm3fUVs6JTeBVmkUabI0tg"
+      }
+    }
+  }
+}
