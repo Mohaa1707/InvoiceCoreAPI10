@@ -31,7 +31,10 @@ public class VendorRepositories : IVendorRepository
         @State,
         @Country,
         @ZipCode,
-        @GstNo",
+        @GstNo,
+        @IsActive,
+        @IsDeleted",
+
 
             new SqlParameter("@VendorCode", entity.VendorCode),
             new SqlParameter("@VendorName", entity.VendorName),
@@ -44,7 +47,10 @@ public class VendorRepositories : IVendorRepository
             new SqlParameter("@State", (object?)entity.State ?? DBNull.Value),
             new SqlParameter("@Country", (object?)entity.Country ?? DBNull.Value),
             new SqlParameter("@ZipCode", (object?)entity.ZipCode ?? DBNull.Value),
-            new SqlParameter("@GstNo", (object?)entity.GstNo ?? DBNull.Value));
+            new SqlParameter("@GstNo", (object?)entity.GstNo ?? DBNull.Value),
+            new SqlParameter("@IsActive", (object?)entity.IsActive ?? DBNull.Value),
+            new SqlParameter("@IsDeleted", (object?)entity.IsDeleted ?? DBNull.Value));
+
 
         return result;
     }
