@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Invoice.BAL.Contracts;
 using Invoice.DTOs;
+using Asp.Versioning;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -10,7 +11,8 @@ using Microsoft.IdentityModel.Tokens;
 namespace Invoice.CoreAPI.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/v{version:apiVersion}/[controller]")]
+[ApiVersion("1.0")]
 public class LoginController : ControllerBase
 {
     private readonly IUsersService _userService;

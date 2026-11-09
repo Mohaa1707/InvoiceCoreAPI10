@@ -28,7 +28,7 @@ builder.Host.UseSerilog();
 // Controllers
 // ============================================================
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
 
 builder.Services
     .AddApiVersioning(options =>
@@ -159,6 +159,19 @@ builder.Services.AddScoped<IMasterCountService, MasterCountService>();
 // Swagger
 // ============================================================
 
+var AllowAngular = "_allowAngular"; builder.Services.AddCors(options =>
+{
+options.AddPolicy(name: AllowAngular,
+
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
+
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(options =>
@@ -282,6 +295,7 @@ app.UseSwaggerUI(options =>
     options.RoutePrefix = "swagger";
 });
 
+app.UseCors(AllowAngular);
 
 // ============================================================
 // Authentication / Authorization
