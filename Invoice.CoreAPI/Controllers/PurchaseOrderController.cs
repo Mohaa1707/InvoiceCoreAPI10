@@ -15,12 +15,16 @@ public class PurchaseOrderController : ApiControllerBase
     private readonly IPurchaseOrderService _service;
     private readonly ILogger<PurchaseOrderController> _logger;
 
+    private readonly IDocumentPrintService _print;
+
     public PurchaseOrderController(
         IPurchaseOrderService service,
-        ILogger<PurchaseOrderController> logger)
+        ILogger<PurchaseOrderController> logger,
+        IDocumentPrintService documentPrintService)
     {
         _service = service;
         _logger = logger;
+        _print = documentPrintService;
     }
 
     // GET: api/v1/PurchaseOrder/GetAll
@@ -119,4 +123,13 @@ public class PurchaseOrderController : ApiControllerBase
             await _service.CancelAsync(id, CurrentUser);
             return Ok(Done("Purchase Order cancelled successfully"));
         }, _logger, "Error cancelling Purchase Order");
+
+    [HttpGet("{id:int}/pdf")]
+
+    [Produces("application/pdf")]
+    public async Task<IActionResult> GetPdf(int id)
+    {
+        var bytes = await _print.GetPurchaseOrderPdfAsync(id);
+        return bytes == null ? NotFound() : File(bytes, "application/pdf", $"PurchaseOrder-{id}.pdf");
+    }
 }
