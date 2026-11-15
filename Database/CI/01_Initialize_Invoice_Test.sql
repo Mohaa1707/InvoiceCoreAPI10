@@ -1632,23 +1632,27 @@ GO
 
 
 CREATE OR ALTER PROCEDURE dbo.sp_Vendor_Insert
-    @VendorCode VARCHAR(20),
+(
+       @VendorCode NVARCHAR(20),
     @VendorName NVARCHAR(100),
     @ContactPerson NVARCHAR(100) = NULL,
-    @MobileNo VARCHAR(20) = NULL,
-    @Email VARCHAR(100) = NULL,
-    @Address1 NVARCHAR(200) = NULL,
-    @Address2 NVARCHAR(200) = NULL,
-    @City NVARCHAR(100) = NULL,
-    @State NVARCHAR(100) = NULL,
-    @Country NVARCHAR(100) = NULL,
-    @ZipCode VARCHAR(20) = NULL,
-    @GstNo VARCHAR(50) = NULL
+    @MobileNo NVARCHAR(20) = NULL,
+    @Email NVARCHAR(100) = NULL,
+    @Address1 NVARCHAR(250) = NULL,
+    @Address2 NVARCHAR(250) = NULL,
+    @City NVARCHAR(50) = NULL,
+    @State NVARCHAR(50) = NULL,
+    @Country NVARCHAR(50) = NULL,
+    @ZipCode NVARCHAR(20) = NULL,
+    @GstNo NVARCHAR(50) = NULL,
+    @IsActive BIT = 1,
+    @IsDeleted BIT = 0
+)
 AS
 BEGIN
     SET NOCOUNT ON;
 
-    INSERT INTO dbo.Vendor
+    INSERT INTO Vendor
     (
         VendorCode,
         VendorName,
@@ -1668,6 +1672,7 @@ BEGIN
         CreatedDate,
         UpdatedBy,
         UpdatedDate
+
     )
     VALUES
     (
@@ -1689,7 +1694,7 @@ BEGIN
         GETDATE(),
         NULL,
         NULL
-    );
+ );
 END
 GO
 
