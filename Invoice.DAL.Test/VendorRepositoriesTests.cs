@@ -511,6 +511,7 @@ public class VendorRepositoriesTests
         // TSTV004 = active + deleted
         //
         // All 4 are counted.
+
         Assert.Equal(baselineCount + 4, result);
     }
 
