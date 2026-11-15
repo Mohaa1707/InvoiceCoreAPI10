@@ -1632,6 +1632,7 @@ GO
 
 
 CREATE OR ALTER PROCEDURE dbo.sp_Vendor_Insert
+(
        @VendorCode NVARCHAR(20),
     @VendorName NVARCHAR(100),
     @ContactPerson NVARCHAR(100) = NULL,
@@ -1694,7 +1695,7 @@ BEGIN
         NULL,
         NULL
  );
-END;
+END
 GO
 
 
