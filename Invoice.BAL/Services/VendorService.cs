@@ -40,9 +40,9 @@ public class VendorService : IVendorService
     {
         return await _repository.DeleteAsync(id);
     }
-    public async Task<PagedResultDto<VendorDto>> GetAllPagedAsync(string? VendorCode,string? VendorName,string? MobileNo,string? City,int PageNumber,int PageSize)
+    public async Task<PagedResultDto<VendorDto>> GetAllPagedAsync(string? VendorCode,string? VendorName,string? MobileNo,string? City, bool IsActive, int PageNumber,int PageSize)
     {
-        var result = await _repository.GetAllPagedAsync(VendorCode,VendorName,MobileNo,City,PageNumber,PageSize);
+        var result = await _repository.GetAllPagedAsync(VendorCode,VendorName,MobileNo,City, IsActive, PageNumber, PageSize);
 
         return new PagedResultDto<VendorDto>
         {

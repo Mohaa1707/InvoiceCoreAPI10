@@ -635,6 +635,7 @@ public class CategoryControllerTests
             .Setup(x => x.GetAllPagedAsync(
                 "RI",
                 null,
+                true,
                 1,
                 5))
             .ReturnsAsync(pagedResult);
@@ -643,6 +644,7 @@ public class CategoryControllerTests
         var result = await _controller.GetAllPaged(
             "RI",
             null,
+            true,
             1,
             5);
 
@@ -667,6 +669,7 @@ public class CategoryControllerTests
             x => x.GetAllPagedAsync(
                 "RI",
                 null,
+                true,
                 1,
                 5),
             Times.Once);
@@ -679,6 +682,7 @@ public class CategoryControllerTests
         var result = await _controller.GetAllPaged(
             null,
             null,
+            true,
             0,
             10);
 
@@ -699,6 +703,7 @@ public class CategoryControllerTests
             x => x.GetAllPagedAsync(
                 It.IsAny<string?>(),
                 It.IsAny<string?>(),
+                It.IsAny<bool>(),
                 It.IsAny<int>(),
                 It.IsAny<int>()),
             Times.Never);
@@ -711,6 +716,7 @@ public class CategoryControllerTests
         var result = await _controller.GetAllPaged(
             null,
             null,
+            true,
             1,
             0);
 
@@ -731,6 +737,7 @@ public class CategoryControllerTests
             x => x.GetAllPagedAsync(
                 It.IsAny<string?>(),
                 It.IsAny<string?>(),
+                It.IsAny<bool>(),
                 It.IsAny<int>(),
                 It.IsAny<int>()),
             Times.Never);
@@ -744,6 +751,7 @@ public class CategoryControllerTests
             .Setup(x => x.GetAllPagedAsync(
                 "RI",
                 null,
+                true,
                 1,
                 10))
             .ThrowsAsync(
@@ -753,6 +761,7 @@ public class CategoryControllerTests
         var result = await _controller.GetAllPaged(
             "RI",
             null,
+            true,
             1,
             10);
 

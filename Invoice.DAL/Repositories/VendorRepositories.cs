@@ -121,6 +121,7 @@ public class VendorRepositories : IVendorRepository
     string? VendorName,
     string? MobileNo,
     string? City,
+    bool IsActive,
     int PageNumber,
     int PageSize)
     {
@@ -137,6 +138,7 @@ public class VendorRepositories : IVendorRepository
         command.Parameters.Add(new SqlParameter("@VendorName", (object?)VendorName ?? DBNull.Value));
         command.Parameters.Add(new SqlParameter("@MobileNo", (object?)MobileNo ?? DBNull.Value));
         command.Parameters.Add(new SqlParameter("@City", (object?)City ?? DBNull.Value));
+        command.Parameters.Add(new SqlParameter("@IsActive", IsActive));
         command.Parameters.Add(new SqlParameter("@PageNumber", PageNumber));
         command.Parameters.Add(new SqlParameter("@PageSize", PageSize));
 

@@ -358,6 +358,7 @@ public class CustomerRepositoriesTests
             null,
             null,
             null,
+            true,
             1,
             2);
 
@@ -383,6 +384,7 @@ public class CustomerRepositoriesTests
             null,
             null,
             null,
+            true,
             1,
             10);
 
@@ -410,6 +412,7 @@ public class CustomerRepositoriesTests
             "Customer Two",
             null,
             null,
+            true,
             1,
             10);
 
@@ -437,6 +440,7 @@ public class CustomerRepositoriesTests
             null,
             null,
             "Chennai",
+            true,
             1,
             10);
 

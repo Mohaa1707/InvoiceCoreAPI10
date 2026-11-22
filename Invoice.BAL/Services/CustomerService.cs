@@ -43,11 +43,12 @@ public class CustomerService : ICustomerService
         string? CustomerName,
         string? MobileNo,
         string? City,
+        bool? IsActive,
         int PageNumber,
         int PageSize
         )
     {
-        var result = await _repository.GetAllPagedAsync(CustomerCode, CustomerName, MobileNo, City,
+        var result = await _repository.GetAllPagedAsync(CustomerCode, CustomerName, MobileNo, City, IsActive,
             PageNumber, PageSize);
         return new PagedResultDto<CustomerDto>
         {

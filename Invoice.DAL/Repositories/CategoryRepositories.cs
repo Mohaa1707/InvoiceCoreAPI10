@@ -103,6 +103,7 @@ namespace Invoice.DAL.Repositories
         public async Task<PagedResultDto<CategoryEntity>> GetAllPagedAsync(
     string? Code,
     string? Name,
+    bool? IsActive,
     int pageNumber,
     int pageSize)
         {
@@ -114,6 +115,7 @@ namespace Invoice.DAL.Repositories
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.Add(new SqlParameter("@Code", (object?)Code ?? DBNull.Value));
                 command.Parameters.Add(new SqlParameter("@Name", (object?)Name ?? DBNull.Value));
+                command.Parameters.Add(new SqlParameter("@IsActive", IsActive));
                 command.Parameters.Add(new SqlParameter("@PageNumber", pageNumber));
                 command.Parameters.Add(new SqlParameter("@PageSize", pageSize));
 

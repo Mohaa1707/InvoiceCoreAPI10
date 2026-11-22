@@ -202,6 +202,7 @@ public class VendorServiceTests
                 "ABC",
                 "9999999999",
                 "Chennai",
+                true,
                 1,
                 10))
             .ReturnsAsync(
@@ -222,6 +223,7 @@ public class VendorServiceTests
                 "ABC",
                 "9999999999",
                 "Chennai",
+                true,
                 1,
                 10);
 
@@ -235,6 +237,7 @@ public class VendorServiceTests
                 "ABC",
                 "9999999999",
                 "Chennai",
+                true,
                 1,
                 10),
             Times.Once);

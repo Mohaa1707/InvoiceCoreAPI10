@@ -380,6 +380,7 @@ public class VendorRepositoriesTests
             null,
             null,
             null,
+            true,
             1,
             2);
 
@@ -407,6 +408,7 @@ public class VendorRepositoriesTests
             null,
             null,
             null,
+            true,
             1,
             10);
 
@@ -437,6 +439,7 @@ public class VendorRepositoriesTests
             "Vendor Two",
             null,
             null,
+            true,
             1,
             10);
 
@@ -467,6 +470,7 @@ public class VendorRepositoriesTests
             null,
             null,
             "Chennai",
+            true,
             1,
             10);
 
