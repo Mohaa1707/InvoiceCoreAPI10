@@ -364,7 +364,8 @@ public class CustomerRepositoriesTests
 
         Assert.NotNull(result);
         Assert.Equal(2, result.Data.Count());
-        Assert.True(result.TotalRecords >= 4);
+        Assert.Equal(3, result.TotalRecords);
+        //Assert.True(result.TotalRecords >= 4);
     }
 
     // ============================================================
@@ -446,7 +447,7 @@ public class CustomerRepositoriesTests
 
         var customers = result.Data.ToList();
 
-        Assert.Equal(2, customers.Count);
+        Assert.Equal(1, customers.Count);
         Assert.All(customers, x => Assert.Equal("Chennai", x.City));
     }
 

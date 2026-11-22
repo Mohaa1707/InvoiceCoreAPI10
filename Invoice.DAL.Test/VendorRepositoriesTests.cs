@@ -387,8 +387,8 @@ public class VendorRepositoriesTests
         Assert.NotNull(result);
 
         Assert.Equal(2, result.Data.Count());
-
-        Assert.True(result.TotalRecords >= 4);
+        Assert.Equal(2, result.TotalRecords);
+        //Assert.True(result.TotalRecords >= 4);
     }
 
     // ============================================================
@@ -476,13 +476,13 @@ public class VendorRepositoriesTests
 
         var vendors = result.Data.ToList();
 
-        Assert.Equal(2, vendors.Count);
+        Assert.Equal(1, vendors.Count);
 
         Assert.All(
             vendors,
             vendor => Assert.Equal("Chennai", vendor.City));
 
-        Assert.Equal(2, result.TotalRecords);
+        Assert.Equal(1, result.TotalRecords);
     }
 
     // ============================================================

@@ -427,6 +427,7 @@ public class VendorControllerTests
             "9876543210",
             "Chennai",
             true,
+            1,
             10);
 
         // Assert
