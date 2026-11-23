@@ -39,10 +39,10 @@ namespace Invoice.BAL.Services
         {
             return await _repository.DeleteAsync(id);
         }
-        public async Task<PagedResultDto<CategoryDto>> GetAllPagedAsync(string? catCode,string? itemName,int pageNumber,int pageSize)
+        public async Task<PagedResultDto<CategoryDto>> GetAllPagedAsync(string? catCode,string? itemName,bool? IsActive, int pageNumber,int pageSize)
         {
             var result = await _repository.GetAllPagedAsync(
-                catCode, itemName, pageNumber, pageSize);
+                catCode, itemName, IsActive, pageNumber, pageSize);
 
             return new PagedResultDto<CategoryDto>
             {

@@ -268,6 +268,7 @@ public class CustomerController : ControllerBase
         string? CustomerName,
         string? MobileNo,
         string? City,
+        bool? IsActive,
         int pageNumber = 1,
         int pageSize = 10)
     {
@@ -278,6 +279,7 @@ public class CustomerController : ControllerBase
                 CustomerName,
                 MobileNo,
                 City,
+                IsActive,
                 pageNumber,
                 pageSize);
 

@@ -178,6 +178,7 @@ public class CustomerServiceTests
                 "John",
                 "9999999999",
                 "Chennai",
+                true,
                 1,
                 10))
             .ReturnsAsync(
@@ -198,6 +199,7 @@ public class CustomerServiceTests
                 "John",
                 "9999999999",
                 "Chennai",
+                true,
                 1,
                 10);
 
@@ -211,6 +213,7 @@ public class CustomerServiceTests
                 "John",
                 "9999999999",
                 "Chennai",
+                true,
                 1,
                 10),
             Times.Once);

@@ -358,12 +358,14 @@ public class CustomerRepositoriesTests
             null,
             null,
             null,
+            true,
             1,
             2);
 
         Assert.NotNull(result);
         Assert.Equal(2, result.Data.Count());
-        Assert.True(result.TotalRecords >= 4);
+        Assert.Equal(3, result.TotalRecords);
+        //Assert.True(result.TotalRecords >= 4);
     }
 
     // ============================================================
@@ -383,6 +385,7 @@ public class CustomerRepositoriesTests
             null,
             null,
             null,
+            true,
             1,
             10);
 
@@ -410,6 +413,7 @@ public class CustomerRepositoriesTests
             "Customer Two",
             null,
             null,
+            true,
             1,
             10);
 
@@ -437,12 +441,13 @@ public class CustomerRepositoriesTests
             null,
             null,
             "Chennai",
+            true,
             1,
             10);
 
         var customers = result.Data.ToList();
 
-        Assert.Equal(2, customers.Count);
+        Assert.Equal(1, customers.Count);
         Assert.All(customers, x => Assert.Equal("Chennai", x.City));
     }
 

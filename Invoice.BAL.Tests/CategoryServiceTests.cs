@@ -168,6 +168,7 @@ public class CategoryServiceTests
             .Setup(x => x.GetAllPagedAsync(
                 "CAT",
                 "Rice",
+                true,
                 1,
                 2))
             .ReturnsAsync(repositoryResult);
@@ -175,6 +176,7 @@ public class CategoryServiceTests
         var result = await _service.GetAllPagedAsync(
             "CAT",
             "Rice",
+            true,
             1,
             2);
 
@@ -186,6 +188,7 @@ public class CategoryServiceTests
             x => x.GetAllPagedAsync(
                 "CAT",
                 "Rice",
+                true,
                 1,
                 2),
             Times.Once);
